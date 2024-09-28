@@ -29,15 +29,15 @@ In this project, we use a **Logistic Regression** model to classify breast tumor
 
 ### Key Steps:
 1. **Data Preprocessing**: 
-   - I clean the data, handle missing values, and normalize features for better model performance.
-   - I also split the data into **training** and **test** sets to evaluate the model's performance on unseen data.
+   - We clean the data, handle missing values, and normalize features for better model performance.
+   - We also split the data into **training** and **test** sets to evaluate the model's performance on unseen data.
   
 2. **Model Building**: 
-   - I implemented a **Logistic Regression** model using **Scikit-learn** to classify tumors based on their characteristics.
+   - We implemented a **Logistic Regression** model using **Scikit-learn** to classify tumors based on their characteristics.
    - To improve accuracy, we experimented with feature selection to remove irrelevant components and reduce dimensionality, preventing overfitting.
 
 3. **Evaluation**: 
-   - I evaluated the model using common metrics such as **accuracy** on both the training and test datasets.
+   - We evaluated the model using common metrics such as **accuracy** on both the training and test datasets.
 
 ### Performance:
 - **Accuracy on training data**: 94.73%
@@ -52,8 +52,3 @@ I used the **Breast Cancer Wisconsin (Diagnostic) Dataset** from [Kaggle](https:
 ### Key Features:
 - **Mean radius, texture, perimeter, area, and smoothness** of tumors.
 - **Class labels**: 0 (Benign), 1 (Malignant).
-
-### Data Visualisation
-![row Data](public/Screenshot%202024-09-28%20085237.png)
-
-![visualization](public/Visualization.png)
