@@ -52,3 +52,8 @@ I used the **Breast Cancer Wisconsin (Diagnostic) Dataset** from [Kaggle](https:
 ### Key Features:
 - **Mean radius, texture, perimeter, area, and smoothness** of tumors.
 - **Class labels**: 0 (Benign), 1 (Malignant).
+
+### Data Visualisation
+![row Data](public/Screenshot%202024-09-28%20085237.png)
+
+![visualization](public/Visualization.png)
